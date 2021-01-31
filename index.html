@@ -1,0 +1,87 @@
+  
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Welcome to the Guild </title>
+	</head>
+<body>
+
+<style>
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.left {
+	width: 20%;
+	float: left;
+}
+.middle{
+	width: 45%;
+	margin: auto;
+	background: #FFFFFF;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=ArenaRank], input[type=Hobbies], input[type=RtaRank]{
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.discord{
+	top: 100px;
+}
+</style>
+<div class="Black">
+	<div class ="left">
+		<a href="http://discord.gg/AutDED7"><img src="images/Allmight.png" title="All Might" alt="All Might"  height="50%" ></a>
+	</div>
+	<div class ="middle">
+		<h1> Guild Application Form</h1>
+		
+		<p> Welcome to the xPlusUltra Guild application page </p>
+		<label for="IGN"><b> In Game Name </b></label>
+			<input type="text" placeholder="Enter IGN" name="IGN" required>
+		<label for="Rank"><b> Arena Rank </b></label>
+			<input type="ArenaRank" placeholder="Rank" name="Rank" required>
+		<label>
+		<label for="rtaRank"><b> RTA Rank </b></label>
+			<input type="rtaRank" placeholder="RTA Rank" name="rtaRank" required>
+		<label>
+		<label for="Hobbies"><b> Hobbies </b></label>
+			<input type="Hobbies" placeholder="Hobbies" name="Hobies" required> </br>
+		<label>
+		  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Application for Guild War
+		</label>
+		<div class="clearfix">
+		  <a href="http://discord.gg/AutDED7"><button type="submit" class="signupbtn"> Apply</button></a>
+		</div>
+	</div>
+</div
+</body>
+</html>
